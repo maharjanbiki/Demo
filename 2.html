@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lists</title>
+    <style>
+        ul{
+            display: flex;
+            justify-content: center ;
+            list-style:none;
+        }
+       ul li{
+            margin: 10px;
+        }:hover{
+            color:goldenrod;
+            transition: 0.2s ease-in-out;
+        }
+        ul li a{
+            color: black;
+            text-decoration: none;
+            font-family: sans-serif;
+            font-weight: 700;
+        }
+        .images{
+            display: flexbox;
+            justify-content: right;
+            width: 1300px;
+        }
+        .images img{
+            width: 250px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Unordered List -->
+    <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Projects</a></li>
+        <li><a href="">Contact</a></li>
+    </ul>
+    <div class="images">
+        <img src="./lamjung.png" alt="">
+        <img src="./Lamjung1.png" alt="">
+        <img src="./Lamjung2.png" alt="">
+        <img src="./Lamjung3.png" alt="">
+        <img src="./Lamjung4.png" alt="">
+        <img src="./Lamjung5.png" alt="">
+        <img src="./Lamjung6.png" alt="">
+        <img src="./Lamjung7.png" alt="">
+        <img src="./Lamjung8.png" alt="">
+        <img src="./Lamjung9.png" alt="">
+    </div>
+
+    <!-- Ordered List -->
+    <ol type="I" start="5"> 
+      <li>Hawa</li>
+      <li>Huri</li>
+      <li>Batas</li>
+      <li>Pani</li>
+    </ol>
+
+    <!-- Description list -->
+
+    <dl>
+        <dt>Coffee</dt>
+        <dd>- black hot drink</dd>
+    </dl> 
+
+    <!-- Nested List -->
+
+    <ol>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <ol>
+            <li>Black tea</li>
+            <li>Green tea</li>
+        </ol>
+        <li>Water</li>
+    </ol>
+</body>
+</html>
